@@ -1,0 +1,32 @@
+*{ /*Reset Básico do CSS*/
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.card{ /*Altera tudo classificado como "card"*/
+    width: 420px;
+    display: inline-block;
+    text-align: center;
+}
+
+.card img{ /*Altera as caracteristicas apenas das imagens*/
+    width: 400px;
+    border-radius: 10px;
+    border: solid 5px red;
+    margin-top: 15px;
+}
+
+.musicas{
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 15px ;
+}
+
+body{
+    background-color: rgb(255, 240, 195);
+}
