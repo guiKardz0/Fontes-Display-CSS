@@ -1,0 +1,40 @@
+/*Importando Fonte do Google*/
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Frijole&display=swap');
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.cdnfonts.com/css/resident-evil');
+
+*{ /*Reset Básico do CSS*/
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{ 
+    font-family: "Frijole", system-ui; /*Alterar o estilo da fonte do título*/
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px; /*Alterar o tamanho da fonte do título*/
+    text-align: center;
+}
+
+h2{
+    font-family: 'Minecraft', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+h3{
+    font-family: 'Resident Evil', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+p{
+    font-family: "Cherry Bomb One", system-ui; /*Alterar o estilo da fonte do parágrafo*/
+    font-weight: 400; /*Altera a largura/expessura da fonte com níveis de 100 a 900*/
+    font-style: normal;
+    font-size: 20px; /*Alterar o tamanho da fonte do parágrafo*/
+    text-align: center;
+}
